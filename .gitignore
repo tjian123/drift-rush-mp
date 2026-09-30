@@ -1,0 +1,19 @@
+# ---- 依赖 ----
+# three-platformize 由 npm 安装；package-lock.json 保留以保证依赖可复现
+node_modules/
+
+# ---- 微信开发者工具的本地配置 ----
+# 含开发者个人路径 / 最近打开的文件 / 本地调试开关，每人不同，不进版本库
+project.private.config.json
+.idea/
+.vscode/
+
+# ---- 运行期产物 ----
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# ---- 编辑器临时文件 ----
+*.swp
+*.tmp

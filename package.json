@@ -1,0 +1,10 @@
+{
+  "name": "drift-rush-mp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Drift Rush 微信小游戏版（原生 three-platformize 适配，game.js 入口）",
+  "miniprogram": true,
+  "dependencies": {
+    "three-platformize": "^1.133.3"
+  }
+}
